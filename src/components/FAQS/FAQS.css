@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+.faq-primary{
+    flex-direction: column;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    /* border: 2px solid red; */
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.faq-primary h1{
+    color: #eb0028;
+}
+
+.faq-primary .answers{
+    border: 2px solid #eb0028;
+    width: 75%;
+    margin: 10px 0px 0px 0px;
+    /* box-shadow: 2px 2px 5px black; */
+}

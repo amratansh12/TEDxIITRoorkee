@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-primary{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    background: #000000;
+}
+
+.nav-primary h2{
+    font-size: 30px;
+    color: #eb0028;
+}
+
+.nav-primary h2:hover{
+    color: white;
+}
+
+.nav-primary ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    list-style: none;
+    gap: 60px;
+}
+
+.nav-primary ul li:hover{
+    color: #eb0028;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+    .nav-primary{
+        flex-direction: column;
+    }
+    .nav-primary h2, ul{
+        scale: 0.8;
+    }
+}

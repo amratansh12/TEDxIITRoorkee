@@ -15,7 +15,7 @@ export default function Footer(){
 
             <div className="description">
                 <h2>Description</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum amet sequi ipsam harum, fugit illum asperiores atque esse! Veniam, voluptatibus!</p>
+                <p>TEDx is an international event organiser with the mission to discover the "Ideas worth spreading". TEDxIITRoorkee restarted from 2023 with the view of spreading positivity.</p>
             </div>
 
             <div className="photo">
